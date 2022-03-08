@@ -1,11 +1,12 @@
 package notas;
-
+/* Clase califica la cual contiene el método califica */
 public class califica {
 
 	/**
 	 * @param num_nota
 	 * @return
 	 */
+	/* Método califica, permite saber la calificación que recibirá una nota al introducirla*/
 	public static String califica(int num_nota) {
 		String calificacion;
 		if (num_nota >= 0 && num_nota < 5)
